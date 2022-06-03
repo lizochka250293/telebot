@@ -5,7 +5,7 @@ from connector import DiskConnector
 
 bot = TeleBot(token)
 test = DiskConnector()
-token = '5333249507:AAFvDGxcBc9V8I8iEUDFjf0fKasnTKVcw10'
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
